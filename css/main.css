@@ -1,3 +1,11 @@
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+
+
 .container{
     width: 1440px;
     margin: 0 auto;
@@ -468,11 +476,12 @@ body {
 
 .cards-wrapper {
     position: relative;
-    padding-left: 150px;
+    margin: 0 auto;
+
     min-height: 700px;
 }
 
-/* Orqa qatlam effektlari */
+ 
 .bg-card {
     position: absolute;
     top: 0;
