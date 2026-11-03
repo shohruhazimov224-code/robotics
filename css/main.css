@@ -1177,5 +1177,81 @@ h2 {
   .card p  { font-size: 11px; }
 }
 
+.futer__section{
+    width: 100%;
+    max-width: 1400px;
+}
+
+
+.futer{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.futer__left{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.futer__text{
+    width: 160px;
+    font-family: Actay;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.futer__right{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.futer__right__holder{
+    display: flex;
+    gap: 20px;
+}
+
+.futer__right__holder__wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.futer__right__holder__text{
+    font-family: Actay;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #ffff;
+}
+
+@media (max-width: 640px){
+    .futer__text{
+        display: none;
+    }
+
+    .futer__right__holder__text{
+        display: none;
+    }
+
+    .futer__phone{
+        display: none;
+    }
+}
+
+
 
  
