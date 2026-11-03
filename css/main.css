@@ -71,12 +71,219 @@ body {
         var(--bg);
 }
 
-/* ---------- Header (faqat joy) ---------- */
-.header {
-    position: relative;
-    z-index: 3;
-    height: 80px;
+
+/* header start */
+.header__section{
+    width: 100%;
+    max-width: 1400px;
 }
+
+
+.header{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__text{
+    width: 160px;
+    font-family: Actay;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.header__right{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right__holder{
+    display: flex;
+    gap: 20px;
+}
+
+.header__right__holder__wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right__holder__text{
+    font-family: Actay;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #ffff;
+}
+
+@media (max-width: 640px){
+    .header__text{
+        display: none;
+    }
+
+    .header__right__holder__text{
+        display: none;
+    }
+
+    .header__phone{
+        display: none;
+    }
+}
+/* header end */
+
+/* scroll start */
+.scroll__section{
+    width: 100%;
+    max-width: 1440px;
+}
+
+
+.scroll{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.scroll__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll__text{
+    width: 673px;
+    font-family: Actay Wide;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.scroll__right{
+    padding-top: 157px;
+}
+
+@media (max-width: 650px) {
+
+    .scroll{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scroll__text{
+        width: 423px;
+        font-family: Actay Wide;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+
+}
+/* scroll end */
+
+
+
+/* services start */
+.services__section{
+    width: 100%;
+    max-width: 1400px;
+}
+
+.services{
+    display: flex;
+    gap: 20px;
+}
+
+.services__link__holder{
+    display: flex;
+}
+
+.services__link{
+    border: 2px solid #3AF0E4;
+    padding: 15px;
+    background-color: #3AF0E4;
+    color: #000000;
+    border-radius: 10px;
+    margin-bottom: -5px;
+}
+
+.services__holder{
+    border: 1px solid gray;
+    width: 550px;
+    height: 540px;
+    border-radius: 20px;
+}
+
+.services__wrapper{
+    padding: 30px;
+}
+
+.services__folder{
+    display: flex;
+    gap: 20px;
+}
+
+.services__title{
+    margin-bottom: 10px;
+    width: 413px;
+    font-family: Actay Wide;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.services__text{
+    width: 413px;
+    font-family: Actay;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF99;
+}
+
+
+
+@media(max-width: 768px) {
+    .services__main__holder{
+        width: 750px;
+    }
+
+
+}
+
+/* services end */
+
 
 /* ---------- Hero ---------- */
 .hero {
